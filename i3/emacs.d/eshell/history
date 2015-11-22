@@ -1,0 +1,49 @@
+ls
+ls
+ssh maiziedu@123.56.136.227
+exit
+ls
+ifconfig 
+ls
+top
+ls
+ssh maiziedu@123.56.136.227
+ls
+ls
+ls
+ls
+ls
+exit
+ssh maiziedu@182.140.231.108
+ssh maiziedu@182.140.231.108
+ls
+cd dPy
+ls
+cd trunk/
+ls
+cd source/
+ls
+svn info
+svn cp https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/trunk/Source/ https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150930 -m 'lps'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150701/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150716/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150723/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150709/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150730/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150806/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150813/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150820/ -m 'clean'
+svn rm https://svn.microoh.com/svn/Microoh/Product/%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE/201409_MaizieduWebSiteV5/branches/test/20150827/ -m 'clean'
+source ~/virtual_env/bin/activate.fish
+source ~/virtual_env/bin/activate
+python test3.py 
+python test2.org 
+python test3.py 
+python test3.py 
+ls
+exit
+exit
+cd PycharmProjects/
+ls
+cd trunk/Source/
+svn info

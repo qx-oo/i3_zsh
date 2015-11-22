@@ -1,0 +1,37 @@
+;; Object test1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test1/"
+  :tables
+  (list
+    (semanticdb-table "test.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("PyDevelop" type
+               (:superclasses ("object")
+                :members 
+                  ( ("words" variable nil (reparse-symbol indented_block_body) [77 99])
+                    ("data0" variable nil (reparse-symbol indented_block_body) [104 130])
+                    ("data1" variable nil (reparse-symbol indented_block_body) [135 159])
+                    ("getchar" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [177 181])
+                            ("lst" variable nil (reparse-symbol function_parameters) [183 186])
+                            ("flag" variable nil (reparse-symbol function_parameters) [188 192]))                          )
+                        (reparse-symbol indented_block_body) [165 452])
+                    ("show" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [466 470]))                          )
+                        (reparse-symbol indented_block_body) [457 634]))                  
+                :type "class")
+                nil [48 634])
+            ("if" code nil nil [635 734]))          
+      :file "test.py"
+      :pointmax 734
+      :fsize 733
+      :lastmodtime '(22031 26999 103088 684000)
+      :unmatched-syntax nil))
+  :file "!home!qxoo!PycharmProjects!test1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
