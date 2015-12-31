@@ -218,9 +218,9 @@ client.focused   $color  $color  #000000 #FFFFFF
 client.unfocused #222222 #222222 $color  #222222
 client.urgent    #274D01 #900000 #FFFFFF #900000
 
-# monitor
-exec_always --no-startup-id xrandr --output VGA-0 --mode 1920x1080 #--left-of LVDS-0
-exec_always --no-startup-id xrandr --output LVDS-0 --mode 1366x768 --right-of VGA-0
+# monitor, command: xrandr
+exec_always --no-startup-id xrandr --output VGA-1 --mode 1920x1080 #--left-of LVDS-1
+exec_always --no-startup-id xrandr --output LVDS-1 --mode 1366x768 --right-of VGA-1
 
 # volume
 bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ '-5%'
@@ -238,6 +238,8 @@ assign [class="Firefox"] 3:web
 assign [class="Thunderbird"] 2:screen
 assign [class="Nautilus"] 2:screen
 assign [class="Keepassx"] 2:screen
+assign [class="jetbrains-pycharm"] 4
+
 
 # 所有窗口无边框
 #for_window [class="^.*"] border none
